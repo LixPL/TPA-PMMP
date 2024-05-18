@@ -6,9 +6,10 @@ use ErosionYT\TPA\commands\TPAcceptCommand;
 use ErosionYT\TPA\commands\TPACommand;
 use ErosionYT\TPA\commands\TPADenyCommand;
 use ErosionYT\TPA\commands\TPAHereCommand;
-use pocketmine\{
-    plugin\PluginBase, player\Player, utils\Config, utils\TextFormat as C
-};
+use pocketmine\plugin\PluginBase;
+use pocketmine\player\Player;
+use pocketmine\utils\Config;
+use pocketmine\utils\TextFormat as C;
 
 class TPA extends PluginBase{
 
